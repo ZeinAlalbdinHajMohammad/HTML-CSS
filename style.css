@@ -212,8 +212,14 @@ section {
 .content .info h3 {
     color: #000;
 }
-.content .info p {
+.content .info a {
     font-size: 1.4em;
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.content .info a:hover {
+    color: #601cfc;
 }
 
 .footer {
