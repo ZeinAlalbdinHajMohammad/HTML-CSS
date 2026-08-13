@@ -11,11 +11,11 @@
 header {
     background-color: #f0f0f0;
     width: 100%;
-    position: fixed;                    /*العنوان بصير ثابت وانا بنزل لتحت */
-    z-index: 999;                       /*مشان وانا بقلب وكان في مربع مثلا مايصير المربع فوق العنوان */
-    display: flex;                      /*طريقة عرض الروابط */
-    justify-content: space-between;     /*nav و a  البعد بين العناوين الرئيسية يعني بين  */
-    align-items: center;                /* يحدد هذا الخيار محاذاة الأسطر داخل حاوية مرنة عندما لا تستخدم العناصر كل المساحة المتاحة. */
+    position: fixed;                   
+    z-index: 999;                      
+    display: flex;                     
+    justify-content: space-between;    
+    align-items: center;               
     padding: 10px 200px;
 }
 
@@ -24,7 +24,7 @@ header {
     color: #3a6cf4;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;           /* 1em = 16px */   /* 1em = 20px بقلب البدي هون بصير font-size: 20px; بتتغير اذا قلت */
+    font-size: 1.8em;          
     
 }
 
@@ -51,7 +51,7 @@ section {
     align-items: center;
     background: url(Code.jpg) no-repeat;
     background-size: cover;
-    background-position: center;            /* تجعل الصورة في المنتصف */
+    background-position: center;          
 }
 .main h2 {
     color:#ffff ;
@@ -61,7 +61,7 @@ section {
 }
 
 .main h2 span {
-    display: inline-block;     /* مشان هيك بغيرها لـ margin & padding يعني مابحسن اغير  inline element  هي  span */
+    display: inline-block;    
     margin-top: 10px;
     color: #4e9eff;
     font-size: 3em;
@@ -118,14 +118,14 @@ section {
 .content {
     display: flex;
     justify-content: center;
-    flex-direction: row;    /*بحدد بدي يكونو جنب بعض ولا تحت بعض class "card" */
-    flex-wrap: wrap;        /* مشان اذا ماضل مساحة ماتصغر الكروت وانما ينزلو لتحت */ 
+    flex-direction: row;   
+    flex-wrap: wrap;        
 }
 
 .card {
     background-color: #fff;
     width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 /15%);        /*  الظل لفوف ولا لتحت -- الظل يمين ولا يسار -- وضوح الظل او انتشار الظل -- لون الظل */
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);      
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -181,7 +181,7 @@ section {
 }
 
 .project-card:hover .project-image {
-    opacity: 0.9; /* الشفافية */
+    opacity: 0.9; 
 }
 
 .project-info {
